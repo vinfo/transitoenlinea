@@ -38,7 +38,8 @@ var app = {
         app.receivedEvent('deviceready');
         getDeviceProperty();
         checkConnection();
-        document.addEventListener("backbutton", onBackKeyDown, false);     
+        document.addEventListener("backbutton", onBackKeyDown, false);
+        StatusBar.hide();  
     },
     // Update DOM on a Received Event
     receivedEvent: function (id) {
