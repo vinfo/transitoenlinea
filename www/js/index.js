@@ -81,7 +81,7 @@ function checkConnection() {
         state = false;
     }
     if(tam==0){
-        $("#centralContent").load("http://ciaeducon.com/transitoenlinea/index.php");
+        //$("#centralContent").load("http://ciaeducon.com/transitoenlinea/index.php");
     }
     return state;
 }
