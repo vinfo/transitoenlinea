@@ -80,6 +80,7 @@ function checkConnection() {
         }
         state = false;
     }
+    alert(tam);
     if(tam==0){
         $("#centralContent").load("http://ciaeducon.com/transitoenlinea/index.php");
     }
