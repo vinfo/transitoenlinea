@@ -1,36 +1,309 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-
 <head>
-	<title>Transito en línea</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--[if lte IE 8]><script src="http://ciaeducon.com/transitoenlinea/assets/js/ie/html5shiv.js"></script><![endif]-->
+<title>Transito en Línea</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="author" content="Julio César Ortiz | Trazos Visuales" />
+<meta name="description" content="" />
+<meta name="keywords"  content="" />
 
-	<link rel="stylesheet" href="http://ciaeducon.com/transitoenlinea/assets/css/main.css" />
+<!--[if lte IE 8]><script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/ie/html5shiv.js"></script><![endif]-->
 
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://ciaeducon.com/transitoenlinea/assets/css/ie8.css" /><![endif]-->
+<link rel="stylesheet" href="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/css/main.css" />
 
-	<!--[if lte IE 9]><link rel="stylesheet" href="http://ciaeducon.com/transitoenlinea/assets/css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" href="http://ciaeducon.com/transitoenlinea/assets/css/ie8.css" /><![endif]-->
+
+<!--[if lte IE 9]><link rel="stylesheet" href="http://ciaeducon.com/transitoenlinea/assets/css/ie9.css" /><![endif]-->
+
 </head>
 
 <body class="landing">
-	<div id="centralContent"></div>
-	<script src="http://ciaeducon.com/transitoenlinea/assets/js/jquery.min.js"></script> 
-	<script src="http://ciaeducon.com/transitoenlinea/assets/js/jquery.scrollex.min.js"></script> 
-	<script src="http://ciaeducon.com/transitoenlinea/assets/js/jquery.scrolly.min.js"></script> 
-	<script src="http://ciaeducon.com/transitoenlinea/assets/js/skel.min.js"></script> 
-	<script src="http://ciaeducon.com/transitoenlinea/assets/js/jquery.placeholder.min.js"></script> 
-	<script src="http://ciaeducon.com/transitoenlinea/assets/js/util.js"></script> 
 
-	<!--[if lte IE 8]><script src="http://ciaeducon.com/transitoenlinea/assets/js/ie/respond.min.js"></script><![endif]--> 	
-	<script type="text/javascript" src="http://ciaeducon.com/transitoenlinea/js/app.js"></script>
-	<script src="http://ciaeducon.com/transitoenlinea/assets/js/main.js"></script>
-	    
-	<script type="text/javascript" src="cordova.js"></script>        
-	<script type="text/javascript" src="js/index.js"></script>
-	<script type="text/javascript">
-		app.initialize();			
-	</script>    
+<!-- Sticky Share -->
+
+<aside id="sticky-social">
+  <ul>
+    <li><a href="#" class="icon fa-calendar" target="_blank"><span>Solicitar cita</span></a></li>
+    <li><a href="#" class="icon fa-headphones" target="_blank"><span>Asesor en línea</span></a></li>
+    <li><a href="contact.html" class="icon fa-envelope" target="_blank"><span>Contáctenos</span></a></li>
+    <li><a href="#" class="icon fa-comments-o" target="_blank"><span>Chat en línea</span></a></li>
+  </ul>
+</aside>
+
+<!-- Page Wrapper -->
+
+<div id="page-wrapper"> 
+  
+  <!-- Header -->
+  
+  <header id="header" class="alt">
+    <h1 class="titleSmall"><a href="index.html">Transito en Línea</a></h1>
+    <h1> <a href="index.html"> <span class="image fit"><img class="brandWhite" src="http://ciaeducon.com/transitoenlinea/images/logo.png" alt="Transito en Línea"></span> </a> </h1>
+    <nav id="nav">
+      <ul>
+        <li class="special"> <a href="#openModal">Ingresar</a>
+          <div id="openModal" class="modalDialog">
+            <div> <a href="#close" title="Close" class="close"></a>
+              <section>
+                <h4>Ingresa a Transito en Línea</h4>
+                <form action="#" method="post">
+                  <div class="row uniform">
+                    <div class="12u$">
+                      <input type="email" placeholder="Email" value="" id="demo-email" name="demo-email">
+                    </div>
+                    <div class="12u$">
+                      <input type="text" placeholder="Contraseña" value="" id="demo-name" name="demo-name">
+                    </div>
+                    <div class="12u$">
+                      <ul class="actions fit">
+                        <li>
+                          <input type="submit" class="special fit" value="Ingresar">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="6u 12u$(small)">
+                      <input type="checkbox" name="demo-copy" id="demo-copy">
+                      <label for="demo-copy">Email me a copy</label>
+                    </div>
+                    <div class="6u 12u$(small)"> <a href="#"><span>Olvidaste tu contraseña?</span></a> </div>
+                    <div class="12u$">
+                      <p>Notienes cuenta con nosotros? <a href="#">Regístrate</a></p>
+                    </div>
+                  </div>
+                </form>
+              </section>
+            </div>
+          </div>
+        </li>
+        <li class="special"> <a href="#menu" class="menuToggle"><span>Menu</span></a>
+          <div id="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li> <a href="#">Licencia de conducción</a>
+                <ul class="subMenuNav">
+                  <div class="arrow arrow-grey"></div>
+                  <li><a href="licenciaExpedicion.html">Expedición licencia de conducción</a></li>
+                  <li><a href="licenciaRefrendacion.html">Refrendación licencia de conducción</a></li>
+                  <li><a href="licenciaDuplicado.html">Duplicado licencia</a></li>
+                  <li><a href="licenciaCambio.html">Cambio de documento</a></li>
+                  <li><a href="licenciaCertificados.html">Certificados de escuela</a></li>
+                </ul>
+              </li>
+              <li> <a href="#">Multas y comparendos</a>
+                <ul class="subMenuNav">
+                  <div class="arrow arrow-grey"></div>
+                  <li><a href="multasCursos.html">Cursos descuento multas</a></li>
+                  <li><a href="multasPagos.html">Pagos y descuentos multas de tránsito</a></li>
+                  <li><a href="multasDerecho.html">Derecho de petición</a></li>
+                </ul>
+              </li>
+              <li> <a href="#">Vehículos</a>
+                <ul class="subMenuNav">
+                  <div class="arrow arrow-grey"></div>
+                  <li><a href="vehiculoRevision.html">Revisión tecnicomecanica</a></li>
+                  <li><a href="vehiculoMatricula.html">Matricula inicial</a></li>
+                  <li><a href="vehiculoTraspaso.html">Traspaso de vehículos</a></li>
+                  <li><a href="vehiculoTraslado.html">Traslado de cuenta</a></li>
+                  <li><a href="vehiculoRadicacion.html">Radicación de cuenta</a></li>
+                  <li><a href="vehiculoLevantamiento.html">Levantamiento e inscripción de prenda</a></li>
+                  <li><a href="vehiculoDuplicado.html">Duplicado de licencia de tránsito y placas</a></li>
+                  <li><a href="vehiculoToma.html">Toma de improntas</a></li>
+                  <li><a href="vehiculoHistorial.html">Historial de vehículos</a></li>
+                </ul>
+              </li>
+              <li> <a href="#">Seguridad víal</a>
+                <ul class="subMenuNav">
+                  <div class="arrow arrow-grey"></div>
+                  <li><a href="seguridadPlan.html">Plan estratégico de seguridad vial</a></li>
+                  <li><a href="seguridadManual.html">Manual de seguridad vial 2015</a></li>
+                  <li><a href="seguridadCursos.html">Cursos de seguridad vial</a></li>
+                </ul>
+              </li>
+              <li> <a href="#">Solicitud otros trámites</a>
+                <ul class="subMenuNav">
+                  <div class="arrow arrow-grey"></div>
+                  <li><a href="solicitudPago.html">Pago de impuestos</a></li>
+                  <li><a href="solicitudPatios.html">Sacar vehículos de los patios</a></li>
+                  <li><a href="solicitudChatarrizacion.html">Chatarrización</a></li>
+                  <li><a href="solicitudMotor.html">Cambio de motor</a></li>
+                  <li><a href="solicitudSOAT.html">SOAT</a></li>
+                  <li><a href="solicitudGrua.html">Servicio de grúa</a></li>
+                </ul>
+              </li>
+              <li> <a href="#">Certificación legal y peritaje</a>
+                <ul class="subMenuNav">
+                  <div class="arrow arrow-grey"></div>
+                  <li><a href="certificacionLegal.html">Certificación legal sistemas de identificación</a></li>
+                  <li><a href="certificacionPeritaje.html">Peritaje vehicular</a></li>
+                  <li><a href="certificacionMarcacion.html">Marcación o regrabación de vehículos</a></li>
+                  <li><a href="certificacionPolarizacion.html">Certificación polarización vehículos</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="actions vertical">
+              <h5>Póngase manos a la obra y descarga nuestra APP:</h5>
+              <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/icon-app-store-280x80.png"></span> </a> </li>
+              <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/icon-play-store-235x80.png"></span> </a> </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Banner -->
+  
+  <section id="banner">
+    <div class="inner">
+      <h2> <span class="image"><img class="brandWhite" src="http://ciaeducon.com/transitoenlinea/images/logo.png" alt="Transito en Línea"></span> </h2>
+      <p>Inmediato. Seguro. Sin Comisiones.<br>
+        <span>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</span> </p>
+      <ul class="actions search">
+        <h3>Qué estas buscando?</h3>
+        <li>
+          <input type="text" placeholder="Busca el trámite que necesitas" value="" id="demo-name" name="demo-name">
+          <a class="button special icon fa-search" href="#">Buscar</a> </li>
+      </ul>
+    </div>
+    <a href="#one" class="more scrolly">Ver más</a> </section>
+  
+  <!-- One -->
+  
+  <section id="one" class="wrapper style3 special">
+    <div class="inner">
+      <header class="major">
+        <h2>Tramites de Tránsito</h2>
+        <p>Brindamos asesorías en todo lo relacionado con trámites y diligencias de tránsito, normatividad y reglamentación vigente en temas de tránsito, transporte y seguridad vial. Asesoramos y apoyamos la gestión empresarial por medio de cursos informativos, descargas de la información del SIMIT, asesorías ante el RUNT, expedición de licencias por primera vez, refrendaciones, matrículas, traspasos, levantamiento o inscripción de prenda, pago de impuestos, certificados de tradición, pago de comparendos, derechos de petición ante Organismos de Tránsito, entre muchas otras diligencias.</p>
+      </header>
+      <ul class="icons major">
+        <li><span class="icon fa-bus major style1"><span class="label">Lorem</span></span></li>
+        <li><span class="icon fa-automobile major style1"><span class="label">Ipsum</span></span></li>
+        <li><span class="icon fa-motorcycle major style1"><span class="label">Dolor</span></span></li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Two -->
+  
+  <section id="two" class="wrapper alt style2">
+    <section class="spotlight">
+      <div class="image"><img src="http://ciaeducon.com/transitoenlinea/images/pic01.jpg" alt="" /></div>
+      <div class="content">
+        <h2>Seguro y<br />
+          asegurado</h2>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+      </div>
+    </section>
+    <section class="spotlight">
+      <div class="image"><img src="http://ciaeducon.com/transitoenlinea/images/pic02.jpg" alt="" /></div>
+      <div class="content">
+        <h2>Te ayudamos con cualquier trámite de transito que necesites</h2>
+        <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+      </div>
+    </section>
+  </section>
+  
+  <!-- Three -->
+  
+  <section id="three" class="wrapper style3 special">
+    <div class="inner">
+      <header class="major">
+        <h2>Conoce más de nuestros servicos</h2>
+        <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+          fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+      </header>
+      <ul class="features">
+        <li class="icon fa-newspaper-o">
+          <h3><a href="licenciaExpedicion.html">Licencia de conducción</a></h3>
+          <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+        </li>
+        <li class="icon fa-hand-stop-o">
+          <h3><a href="multasCursos.html">Multas y comparendos</a></h3>
+          <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+        </li>
+        <li class="icon fa-car">
+          <h3><a href="vehiculoRevision.html">Vehículos</a></h3>
+          <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+        </li>
+        <li class="icon fa-road">
+          <h3><a href="seguridadPlan.html">Seguridad víal</a></h3>
+          <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+        </li>
+        <li class="icon fa-clipboard">
+          <h3><a href="solicitudPago.html">Solicitud otros trámites</a></h3>
+          <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+        </li>
+        <li class="icon fa-certificate">
+          <h3><a href="certificacionLegal.html">Certificación legal y peritaje</a></h3>
+          <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- CTA -->
+  
+  <section id="cta" class="wrapper style4">
+    <div class="inner">
+      <header>
+        <h2>¡Toda la información de Transito en Línea en una sola aplicación!</h2>
+        <p>Ya puedes descargarte GRATIS la nueva aplicación de Transito en Línea para tu dispositivo móvil, disponible en Apple Store y Google Play</p>
+      </header>
+      <ul class="actions vertical">
+        <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/icon-app-store-280x80.png"></span> </a> </li>
+        <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/icon-play-store-235x80.png"></span> </a> </li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  
+  <div id="pre-footer">
+    <ul class="actions">
+      <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/logoConvenio1.png"></span> </a> </li>
+      <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/logoConvenio2.png"></span> </a> </li>
+      <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/logoConvenio3.png"></span> </a> </li>
+      <li> <a href="#"> <span class="image"><img src="http://ciaeducon.com/transitoenlinea/images/logoConvenio4.png"></span> </a> </li>
+    </ul>
+  </div>
+  <footer id="footer">
+    <ul class="icons">
+      <li><a href="#" class="icon fa-google-plus"><span class="label">Google +</span></a></li>
+      <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+      <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="actions">
+      <li class="footer-list-item"><a href="about.html" target="_self" class="ng-binding">Nosotros</a></li>
+      <li class="footer-list-item"><a href="news.html" target="_self" class="ng-binding">Noticias</a></li>
+      <li class="footer-list-item"><a href="#" target="_self" class="ng-binding">Blog</a></li>
+      <li class="footer-list-item"><a href="careers.html" target="_self" class="ng-binding">Trabaja con nosotros</a></li>
+      <li class="footer-list-item"><a href="contact.html" target="_self" class="ng-binding">Contacto</a></li>
+    </ul>
+    <ul class="copyright">
+      <li>© 2016 Transito en Línea</li>
+      <li>Diseñado por: <a href="http://www.trazosvisuales.com" target="_blank">Trazos Visuales</a></li>
+    </ul>
+  </footer>
+</div>
+
+<!-- Scripts --> 
+
+<script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/jquery.min.js"></script> 
+<script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/jquery.scrollex.min.js"></script> 
+<script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/jquery.scrolly.min.js"></script> 
+<script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/skel.min.js"></script> 
+<script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/util.js"></script> 
+
+<!--[if lte IE 8]><script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/ie/respond.min.js"></script><![endif]--> 
+
+<script src="http://ciaeducon.com/transitoenlinea/http://ciaeducon.com/transitoenlinea/assets/js/main.js"></script>
+<script type="text/javascript" src="cordova.js"></script>        
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+  app.initialize();     
+</script>  
 </body>
 </html>
